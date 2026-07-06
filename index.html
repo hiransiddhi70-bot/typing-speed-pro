@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typing Speed Pro</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>
+        ⌨️ Typing Speed Pro
+    </h1>
+
+    <div class="timer-box">
+
+        <button class="time active" data-time="15">15s</button>
+
+        <button class="time" data-time="30">30s</button>
+
+        <button class="time" data-time="60">60s</button>
+
+    </div>
+
+    <div class="typing-box">
+
+        <p id="paragraph">
+            Loading paragraph...
+        </p>
+
+        <textarea
+        id="input"
+        placeholder="Start typing here..."
+        spellcheck="false">
+        </textarea>
+
+    </div>
+
+    <div class="stats">
+
+        <div class="card">
+            <h3>⏱ Time</h3>
+            <span id="time">15</span>
+        </div>
+
+        <div class="card">
+            <h3>⚡ WPM</h3>
+            <span id="wpm">0</span>
+        </div>
+
+        <div class="card">
+            <h3>🎯 Accuracy</h3>
+            <span id="accuracy">100%</span>
+        </div>
+
+        <div class="card">
+            <h3>❌ Mistakes</h3>
+            <span id="mistakes">0</span>
+        </div>
+
+        <div class="card">
+            <h3>⌨️ CPM</h3>
+            <span id="cpm">0</span>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+
+        <button id="restart">
+            <i class="fa-solid fa-rotate-right"></i>
+            Restart
+        </button>
+
+        <button id="theme">
+            <i class="fa-solid fa-moon"></i>
+            Dark Mode
+        </button>
+
+    </div>
+
+    <div class="history">
+
+        <h2>
+            🏆 Best Score
+        </h2>
+
+        <p id="bestScore">
+            0 WPM
+        </p>
+
+        <h2>
+            📈 Previous Results
+        </h2>
+
+        <ul id="historyList">
+
+        </ul>
+
+    </div>
+
+</div>
+
+<script src="paragraphs.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
