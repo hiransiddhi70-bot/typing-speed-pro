@@ -1,43 +1,12 @@
 const paragraphs = [
-
-"Practice makes a person better every single day. Stay consistent and keep learning.",
-
-"Technology is changing the world faster than ever before. Learning to code opens many opportunities.",
-
-"Success comes from discipline, hard work, and continuous improvement rather than luck alone.",
-
-"Typing quickly and accurately saves time and increases productivity in daily work and studies.",
-
-"Small habits repeated every day can create remarkable results over a long period of time.",
-
-"Programming is not about memorizing code but about solving problems with logical thinking.",
-
-"Reading books improves vocabulary, imagination, and communication skills for every student.",
-
-"Never stop learning because knowledge is the most valuable investment you can make.",
-
-"Confidence grows when you challenge yourself and keep improving your abilities every day.",
-
-"Focus on progress instead of perfection because every expert was once a beginner.",
-
-"A positive mindset helps you overcome obstacles and achieve your biggest goals.",
-
-"Consistency beats motivation because habits remain even when motivation disappears.",
-
-"Time management is an important skill for students, developers, and professionals alike.",
-
-"Creativity and curiosity together lead to innovation and exciting new discoveries.",
-
-"Every mistake teaches a lesson that brings you closer to success and personal growth.",
-
-"Building projects is the fastest way to improve your programming knowledge and confidence.",
-
-"Healthy routines improve concentration, energy, and overall performance throughout the day.",
-
-"Dream big, work hard, stay humble, and never give up on your ambitions.",
-
-"Communication skills are as important as technical skills in every career.",
-
-"The future belongs to those who prepare for it today through learning and dedication."
-
+    "The quick brown fox jumps over the lazy dog. This classic phrase contains every single letter in the English alphabet, making it perfect for typing practice.",
+    "Success is not final, failure is not fatal: it is the courage to continue that counts. Believe you can and you are halfway there.",
+    "Technology is moving at a faster pace than ever before. Programming requires patience, logic, and consistent practice to truly master the art of coding.",
+    "Artificial intelligence and machine learning are reshaping the modern world. Staying curious and continuously learning is the key to unlocking future possibilities.",
+    "A journey of a thousand miles begins with a single step. Focus on progress rather than perfection, and you will eventually reach your destination.",
+    "Consistency is the key to unlocking your true potential. When you practice a skill every day, your muscle memory takes over, making complex tasks feel natural and effortless.",
+    "The beautiful thing about learning is that no one can take it away from you. Every mistake you make is just another step closer to perfection. Keep moving forward.",
+    "Do not wait for the perfect moment. Take the moment and make it perfect. Challenges are what make life interesting, and overcoming them is what makes life meaningful.",
+    "Dream big, work hard, and stay focused. The road to excellence is often lonely and demanding, but the reward at the end is always worth the sweat and dedication.",
+    "Innovation distinguishes between a leader and a follower. To build something great, you must be willing to experiment, fail, and try again with even more determination."
 ];
